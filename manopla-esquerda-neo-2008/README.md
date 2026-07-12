@@ -3,6 +3,8 @@
 Projeto de manopla **esquerda** (lado sem acelerador) para a Yamaha Neo 115 ano 2008,
 que usa guidão padrão de **7/8" (22,2 mm)**.
 
+![Prévia do modelo 3D](docs/preview.png)
+
 ![Perfil da manopla](docs/perfil.svg)
 
 ## Arquivos
@@ -13,6 +15,7 @@ que usa guidão padrão de **7/8" (22,2 mm)**.
 | `scad/manopla_esquerda_neo2008.scad` | Fonte paramétrica em OpenSCAD (edite e exporte seu STL) |
 | `scripts/gerar_stl.py` | Gerador do STL em Python puro (sem dependências) |
 | `scripts/gerar_perfil_svg.py` | Gera o desenho de perfil da documentação |
+| `scripts/renderizar_preview.py` | Renderiza a prévia 3D em PNG (requer Pillow) |
 
 ## Dimensões
 
